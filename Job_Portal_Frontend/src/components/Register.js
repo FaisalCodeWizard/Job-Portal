@@ -30,7 +30,7 @@ function Register() {
     // }
 
     try {
-      const res = await axios.post("http://localhost:5000/register", formData);
+      const res = await axios.post("http://localhost:3306/register", formData);
       alert(res.data.message);
       navigate("/login");
     } catch (err) {
