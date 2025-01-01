@@ -150,7 +150,7 @@ app.get('/admin/candidates', (req, res) => {
   const sql = 'SELECT * FROM candidates';
   db.query(sql, (err, results) => {
     if (err) return res.status(500).send(err);
-    console.log("Candidates from database:", results); // Log the results
+    console.log("Candidates from database:", results); 
     res.status(200).json(results); // Send results as an array of candidates
   });
 }); 

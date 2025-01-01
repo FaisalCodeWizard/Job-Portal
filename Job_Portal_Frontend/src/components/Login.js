@@ -29,8 +29,6 @@ function Login() {
       // Store authentication token
       if (token) {
         localStorage.setItem("authToken", token);
-  
-        // Redirect to dashboard
         navigate("/dashboard");
       } else {
         throw new Error("Token not received");

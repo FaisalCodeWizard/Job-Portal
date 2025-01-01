@@ -1,4 +1,3 @@
-/* Container Styling */
 body{
     background: white;
 }
@@ -11,7 +10,6 @@ body{
     animation-fill-mode: both;
   }
   
-  /* Fade-in Animation */
   @keyframes fadeIn {
     from {
       opacity: 0;
@@ -27,7 +25,6 @@ body{
     animation-name: fadeIn;
   }
   
-  /* Login Form Styling */
   .login-form {
     background: linear-gradient(135deg, #1d3557, #457b9d);
     padding: 20px 30px;
@@ -73,7 +70,6 @@ body{
   }
 
   
-  /* Mobile Responsiveness */
   @media screen and (max-width: 480px) {
     .login-form {
       padding: 15px 20px;

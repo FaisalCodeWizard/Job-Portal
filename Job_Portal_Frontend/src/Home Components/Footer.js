@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css"; // Import the corresponding CSS file
+import "./Footer.css"; 
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin, FaTwitter } from "react-icons/fa6";
 
@@ -7,7 +7,6 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        {/* Left Section */}
         <div className="footer-brand"> 
           <div className="footer-logo">
             <img
@@ -30,7 +29,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Links Section */}
         <div className="footer-links">
           <div>
             <h4>Resources</h4>
@@ -68,7 +66,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* App Download Section */}
         <div className="footer-app">
           <h4>Download App</h4>
           <div className="app-buttons">
@@ -90,7 +87,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Footer Bottom */}
       <div className="footer-bottom">
         <p>
           Copyright © 2022. JobBox. All rights reserved.

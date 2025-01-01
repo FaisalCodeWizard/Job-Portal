@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom'; // Import useLocation
+import { Link, useLocation } from 'react-router-dom'; 
 import './Header.css';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 
 const Header = () => {
-  const location = useLocation(); // Get the current location
+  const location = useLocation(); 
 
   // Helper function to determine active link
   const isActive = (path) => location.pathname === path;
@@ -43,7 +43,6 @@ const Header = () => {
           </nav>
         </div>
 
-        {/* Header Actions */}
         <div className="header-actions">
           <div className="find-store">
             <FaMapMarkerAlt />

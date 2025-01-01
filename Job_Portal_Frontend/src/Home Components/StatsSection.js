@@ -1,5 +1,5 @@
 import React from 'react';
-import './StatsSection.css'; // Create a CSS file to style the component
+import './StatsSection.css'; 
 
 const StatsSection = () => {
   const stats = [

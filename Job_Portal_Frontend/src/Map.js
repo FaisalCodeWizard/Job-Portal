@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Home Components/Header';
-import './Map.css'; // Custom CSS for styling
+import './Map.css'; 
 
 export const Map = () => {
   return (

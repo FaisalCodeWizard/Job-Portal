@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Header2 from "../Home Components/Header2";
-import "./AdminDashboard.css"; // Import the CSS file for styling
+import "./AdminDashboard.css"; 
 
 function AdminDashboard() {
   const [candidates, setCandidates] = useState([]);
@@ -36,24 +36,24 @@ function AdminDashboard() {
             </tr>
           </thead>
           <tbody>
-  {Array.isArray(candidates) && candidates.length > 0 ? (
-    candidates.map((candidate) => (
-      <tr key={candidate.id}>
-        <td>{candidate.id}</td>
-        <td>{candidate.name}</td>
-        <td>{candidate.email}</td>
-        <td>
-          <a
-            href={`http://localhost:5000/${candidate.cv_path}`}
-            target="_blank"
-            rel="noreferrer"
-            className="cv-link"
-          >
-            Download CV
-          </a>
-        </td>
-      </tr>
-    ))
+      {Array.isArray(candidates) && candidates.length > 0 ? (
+        candidates.map((candidate) => (
+          <tr key={candidate.id}>
+            <td>{candidate.id}</td>
+            <td>{candidate.name}</td>
+            <td>{candidate.email}</td>
+            <td>
+              <a
+                href={`http://localhost:5000/${candidate.cv_path}`}
+                target="_blank"
+                rel="noreferrer"
+                className="cv-link"
+              >
+                Download CV
+              </a>
+            </td>
+          </tr>
+        ))
   ) : (
     <tr>
       <td colSpan="4">No candidates found</td>

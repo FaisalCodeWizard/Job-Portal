@@ -1,4 +1,3 @@
-/* Footer Container */
 .footer {
     background-color: #f1f1f1;
     padding: 40px 20px;
@@ -11,12 +10,11 @@
     gap: 40px;
   }
   
-  /* Left Section - Footer Brand */
   .footer-brand {
     flex: 1;
     max-width: 300px;
     display: flex;
-    align-items: center; /* Vertically center the logo and text */
+    align-items: center; 
     gap: 15px;
   }
   
@@ -27,14 +25,14 @@
   }
   
   .footer-logo img {
-    width: 70px; /* Decreased size of the logo */
+    width: 70px; 
     height: auto;
     border-radius: 10px;
   }
   
   .footer-logo h2 {
     font-size: 24px;
-    margin: 0; /* Remove extra margin */
+    margin: 0; 
     margin-left: 10px;
     font-weight: bold;
   }
@@ -57,10 +55,9 @@
   }
   
   .social-icon i:hover {
-    color: #2979ff; /* Hover effect on social icons */
+    color: #2979ff; 
   }
   
-  /* Links Section */
   .footer-links {
     flex: 2;
     display: flex;
@@ -68,7 +65,7 @@
   }
   
   .footer-links div {
-    width: 25%; /* Adjusted width for better responsiveness */
+    width: 25%;
   }
   
   .footer-links h4 {
@@ -88,10 +85,9 @@
   }
   
   .footer-links li a:hover {
-    color: #2979ff; /* Hover effect on links */
+    color: #2979ff; 
   }
   
-  /* App Download Section */
   .footer-app {
     flex: 1;
     max-width: 300px;
@@ -108,10 +104,9 @@
   }
   .play-store img {
     margin-top: -12px;
-    width: 120px; /* Adjust as per your design */
+    width: 120px;
   }
   
-  /* Footer Bottom */
   .footer-bottom {
     margin-top: 20px;
     background-color: #333;
@@ -138,10 +133,9 @@
   }
   
   .footer-bottom-links a:hover {
-    color: #2979ff; /* Hover effect on footer links */
+    color: #2979ff; 
   }
   
-  /* Responsive Design */
   @media (max-width: 768px) {
     .footer-container {
       flex-direction: column;
@@ -156,7 +150,7 @@
     }
   
     .footer-links div {
-      width: auto; /* Allow the columns to be more flexible */
+      width: auto; 
     }
   
     .footer-app {

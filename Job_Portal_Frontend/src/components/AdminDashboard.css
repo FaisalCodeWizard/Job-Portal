@@ -1,5 +1,3 @@
-/* AdminDashboard.css */
-
 .dashboard-container {
   font-family: Arial, sans-serif;
   background-color: #f4f4f9;
@@ -26,9 +24,9 @@
   width: 100%;
   border-collapse: collapse;
   margin-top: 10px;
-  background: #f8f9fc; /* Light background for the table */
+  background: #f8f9fc; 
   border-radius: 8px;
-  overflow: hidden; /* Ensure rounded corners are applied */
+  overflow: hidden; 
 }
 
 .candidates-table th,
@@ -40,7 +38,7 @@
 }
 
 .candidates-table th {
-  background-color: #4CAF50; /* Green background for header */
+  background-color: #4CAF50;
   color: white;
   text-transform: uppercase;
   font-weight: bold;
@@ -48,28 +46,28 @@
 }
 
 .candidates-table tr:nth-child(even) {
-  background-color: #f1f5f9; /* Light grey color for even rows */
+  background-color: #f1f5f9; 
 }
 
 .candidates-table tr:nth-child(odd) {
-  background-color: #ffffff; /* White color for odd rows */
+  background-color: #ffffff; 
 }
 
 .candidates-table tr:hover {
-  background-color: #e2e8f0; /* Light blue when hovering over rows */
+  background-color: #e2e8f0; 
 }
 
 .cv-link {
-  color: #4CAF50; /* Green color for CV links */
+  color: #4CAF50; 
   text-decoration: none;
 }
 
 .cv-link:hover {
-  color: #2E8B57; /* Darker green on hover */
+  color: #2E8B57; 
   text-decoration: underline;
 }
 
-/* Make the table more responsive for small screens */
+
 @media (max-width: 768px) {
   .candidates-table {
     font-size: 14px;

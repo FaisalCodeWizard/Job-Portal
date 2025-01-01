@@ -7,7 +7,6 @@ import Dashboard from "./components/Dashboard";
 import AdminDashboard from "./components/AdminDashboard";
 import AdminLogin from "./components/AdminLogin"
 import { Map } from "./Map";
-// import PrivateRoute from "./PrivateRoute";
 
 function App() {
   return (
