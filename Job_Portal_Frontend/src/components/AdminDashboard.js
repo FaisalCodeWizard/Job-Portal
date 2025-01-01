@@ -11,7 +11,7 @@ function AdminDashboard() {
       try {
         const res = await axios.get("http://localhost:5000/admin/candidates");
         console.log('Candidates response:', res.data); // Log the response to inspect it
-        setCandidates(res.data.results); // Set the state to the response
+        setCandidates(res.data); // Set the state to the response
       } catch (err) {
         console.error("Failed to fetch candidates:", err);
         alert("Failed to fetch candidates");

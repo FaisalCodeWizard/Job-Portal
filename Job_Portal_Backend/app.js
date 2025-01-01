@@ -36,13 +36,13 @@ db.connect((err) => {
 
 // API Routes
 // Candidate Registration
-app.get('/',(req,res) => {
-  res.send("My server is running at port 5000!");
-});
+// app.get('/',(req,res) => {
+//   res.send("My server is running at port 5000!");
+// });
 
-// app.get('/myurl',(req,res) => {
-//   res.send("This is my url!")
-// })
+app.get('/myurl',(req,res) => {
+  res.send("This is my url!")
+})
 app.post('/register', (req, res) => {
   const { name, email, password } = req.body;
   const sql = 'INSERT INTO user (name, email, password) VALUES (?, ?, ?)';
@@ -188,7 +188,7 @@ app.post('/admin', (req,res) => {
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 // Start server
-const PORT = process.env.PORT || 5000;
+const PORT = 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
