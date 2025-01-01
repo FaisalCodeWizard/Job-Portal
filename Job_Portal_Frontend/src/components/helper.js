@@ -1,0 +1,1 @@
+export const BASE_URL = "https://job-portal-backend-se5l.onrender.com"
